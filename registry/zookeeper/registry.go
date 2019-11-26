@@ -173,9 +173,6 @@ func (r *zkRegistry) GetUrl() common.URL {
 }
 
 func (r *zkRegistry) Destroy() {
-	if r.configListener != nil {
-		r.configListener.Close()
-	}
 	close(r.done)
 	r.wg.Wait()
 	r.closeRegisters()

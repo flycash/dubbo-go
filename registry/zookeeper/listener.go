@@ -109,13 +109,7 @@ func (l *RegistryConfigurationListener) Next() (*registry.ServiceEvent, error) {
 	}
 }
 func (l *RegistryConfigurationListener) Close() {
-	if l.registry.IsAvailable() {
-		/**
-		 * if the registry is not available, it means that the registry has been destroy
-		 * so we don't need to call Done(), or it will cause the negative count panic for registry.wg
-		 */
-		l.registry.wg.Done()
-	}
+	l.registry.wg.Done()
 }
 
 func (l *RegistryConfigurationListener) valid() bool {
