@@ -22,9 +22,10 @@ import (
 	"testing"
 )
 import (
-	"github.com/apache/dubbo-go/filter"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/apache/dubbo-go/filter"
 )
 
 import (

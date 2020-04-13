@@ -24,8 +24,9 @@ import (
 )
 
 import (
-	_ "github.com/apache/dubbo-go/config_center/zookeeper"
 	"github.com/stretchr/testify/assert"
+
+	_ "github.com/apache/dubbo-go/config_center/zookeeper"
 )
 
 import (

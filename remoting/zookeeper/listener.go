@@ -18,11 +18,12 @@
 package zookeeper
 
 import (
-	"github.com/apache/dubbo-go/common"
 	"path"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/apache/dubbo-go/common"
 )
 
 import (

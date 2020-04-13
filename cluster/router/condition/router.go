@@ -27,12 +27,13 @@ import (
 )
 
 import (
+	"github.com/dubbogo/gost/container/set"
+	"github.com/dubbogo/gost/net"
+
 	"github.com/apache/dubbo-go/common"
 	"github.com/apache/dubbo-go/common/constant"
 	"github.com/apache/dubbo-go/common/logger"
 	"github.com/apache/dubbo-go/protocol"
-	"github.com/dubbogo/gost/container/set"
-	"github.com/dubbogo/gost/net"
 )
 
 const (

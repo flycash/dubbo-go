@@ -18,8 +18,9 @@
 package metadata
 
 import (
-	"github.com/apache/dubbo-go/common"
 	gxset "github.com/dubbogo/gost/container/set"
+
+	"github.com/apache/dubbo-go/common"
 )
 
 type MetadataService interface {

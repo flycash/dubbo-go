@@ -24,11 +24,12 @@ import (
 )
 
 import (
+	"github.com/golang/mock/gomock"
+	"github.com/stretchr/testify/assert"
+
 	"github.com/apache/dubbo-go/filter"
 	"github.com/apache/dubbo-go/filter/filter_impl/tps"
 	common2 "github.com/apache/dubbo-go/filter/handler"
-	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/assert"
 )
 
 import (
